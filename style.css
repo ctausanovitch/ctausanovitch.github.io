@@ -1,0 +1,40 @@
+
+body {background-color: #FFFFFF; color:000000;font-size:16pt;font-family:"Optima","Times New Roman", Times, serif;}
+h1 {font-size:26pt;}
+
+#title {text-align:left; position:absolute; left:0px;
+ top:0px; width: 700px; color:#536895;}
+
+#container {position:absolute; left:0%; top 50px; overflow:
+ visible; width 100%; margin-left:50px; visibility:visible;
+ text-align:justify;}
+
+#menu {position:absolute; left:0px; top: 100px; width:150px;
+ cursor:hand;}
+
+.content {position:absolute; left:150px; top: 100px; width:
+550px; padding-left: 10px; padding-top: 10px; border-left: 1px
+dashed; border-color: #536895;}
+
+.menuitem {border-bottom: 1px dashed; border-color: #536895;}
+
+a:link {color: #87cefa ; text-decoration: underline;}
+a:active {color: #87cefa ; text-decoration: underline;}
+a:visited {color: #87cefa ; text-decoration: underline;}
+a:hover {color: #FFB300; text-decoration:  underline; }
+
+.menulink:link {color: #454545 ; text-decoration: none;}
+.menulink:active {color: #454545; text-decoration: none; }
+.menulink:visited {color: #454545; text-decoration: none; }
+.menulink:hover {color: #FFB300; text-decoration:  underline; }
+
+li {font-size:12pt;}
+
+#theviewer
+{
+margin: 10px;
+float:left;
+background-color: #00ffff;
+width:500px;
+height:400px;
+}
