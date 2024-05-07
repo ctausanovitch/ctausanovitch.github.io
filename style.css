@@ -3,17 +3,25 @@ body {background-color: #FFFFFF; color:000000;font-size:16pt;font-family:"Optima
 h1 {font-size:26pt;}
 
 #title {text-align:left; position:absolute; left:0px;
- top:0px; width: 700px; color:#536895;}
+ top:0px; width: 90%; color:#536895;}
 
-#container {position:absolute; left:0%; top 50px; overflow:
+/*#container {position:absolute; left:0%; top 50px; overflow:
  visible; width 100%; margin-left:50px; visibility:visible;
+ text-align:justify;}*/
+
+#container {position: relative; left:10px; top 10px; overflow:
+ visible;  visibility:visible;
  text-align:justify;}
 
 #menu {position:absolute; left:0px; top: 100px; width:150px;
  cursor:hand;}
 
-.content {position:absolute; left:150px; top: 100px; width:
-550px; padding-left: 10px; padding-top: 10px; border-left: 1px
+/*.content {position:absolute; left:150px; top: 100px; width:
+800px; padding-left: 10px; padding-top: 10px; border-left: 1px
+dashed; border-color: #536895;}*/
+
+.content {position:absolute; left:150px; top: 100px; padding-right: 200px;
+padding-left: 10px; padding-top: 10px; border-left: 1px
 dashed; border-color: #536895;}
 
 .menuitem {border-bottom: 1px dashed; border-color: #536895;}
@@ -38,3 +46,28 @@ background-color: #00ffff;
 width:500px;
 height:400px;
 }
+
+.pub {
+  margin-left:50px;
+}
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  max-width:1000px;
+}
+
+.abstract {
+  display: none;
+  overflow: hidden;
+  margin-left:50px;
+}
+
+.note {
+  font-size:12pt;
+  margin-left:10px;
+  overflow: hidden;
+}
+
